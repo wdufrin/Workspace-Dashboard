@@ -1,0 +1,19 @@
+# Dependencies & build output
+node_modules/
+dist/
+coverage/
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Environment & credentials (never commit tokens or OAuth client secrets)
+.env
+.env.*
+!.env.example
+client_secret*.json
+
+# Local archives, OS metadata & IDE files
+*.zip
+*.log
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,19 @@
+# Dependencies & build output
+node_modules
+dist
+coverage
+tsconfig.tsbuildinfo
+package-lock.json
+
+# Never copy local environment files or tokens into Docker build context
+.env
+.env.*
+!.env.example
+
+# Version control & IDE metadata
+.git
+.gitignore
+.vscode
+.idea
+.DS_Store
+*.log
